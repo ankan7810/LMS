@@ -23,7 +23,7 @@ app.use(cookieParser());
 app.use(
   cors(
     {
-    origin: "https://lms-1-server.onrender.com",
+    origin: "https://lms-1-f3mw.onrender.com",
     credentials: true,
   }
   )
