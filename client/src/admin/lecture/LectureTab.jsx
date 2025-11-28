@@ -22,7 +22,7 @@ import {
 } from "@/api/courseApi";
 
 // const MEDIA_API = "https://lms-xrs4.onrender.com/api/v1/media";
-const MEDIA_API = "http://localhost:8000/api/v1/media";
+const MEDIA_API = "https://lms-backend-i1s0.onrender.com/api/v1/media";
 
 
 const LectureTab = () => {
