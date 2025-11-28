@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { toast } from "sonner";
  
-const COURSE_API = "http://localhost:8000/api/v1/course";
+const COURSE_API = "https://lms-backend-i1s0.onrender.com/api/v1/course";
 
 const useGetSingleCourse = (courseId) => {
   const [course, setCourse] = useState(null); 
