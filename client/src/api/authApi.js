@@ -3,7 +3,7 @@ import { userLoggedIn, userLoggedOut } from "@/features/authSlice";
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 // const USER_API = "https://lms-xrs4.onrender.com/api/v1/user";
-const USER_API = "https://lms-1-server.onrender.com/api/v1/user";
+const USER_API = "https://lms-backend-i1s0.onrender.com/api/v1/user";
 
 export const authApi = createApi({
   //reducerPath: ANY_NAME
