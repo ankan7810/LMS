@@ -6,10 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon index.js",
-    "stripe": "stripe listen --forward-to https://lms-1-server.onrender.com/api/v1/purchase/webhook",
-    "postinstall": "cd client && npm install && npm run build",
-    "build": "cd client && npm install && npm run build",
-    "start": "node index.js"
+    "stripe": "stripe listen --forward-to https://lms-xrs4.onrender.com/api/v1/purchase/webhook",
+    "build": "npm install && npm install --prefix client && npm run build --prefix client"
   },
   "keywords": [],
   "author": "",
