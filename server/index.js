@@ -24,7 +24,7 @@ app.use(
   cors(
     {
     origin: "https://lms-frontend-l5tw.onrender.com",
-    credentials: true,
+    credentials: true
   }
   )
 );
